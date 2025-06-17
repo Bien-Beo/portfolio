@@ -37,9 +37,9 @@ const ShowcaseSection = () => {
                             <img src="/images/project1.png" alt="Ryde" />
                         </div>
                         <div className="text-content">
-                            <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                            <h2>Facility Management UTC2 – Smart Campus Asset System</h2>
                             <p className="text-white-50 md:text-xl">
-                                An app built with React Native and Firebase that allows users to book rides with other users.
+                                Built with React, TypeScript, Java Spring Boot, and JavaFX, this platform streamlines room booking, device lending, and repair tracking across the UTC2 campus — enabling students, staff, and technicians to manage facilities efficiently.
                             </p>
                         </div>
                     </div>
@@ -47,17 +47,17 @@ const ShowcaseSection = () => {
                 {/* RIGHT */}
                 <div className="project-list-wrapper overflow-hidden">
                     <div className="project" ref={project2Ref}>
-                        <div className="image-wrapper bg-[#ffefdb]">
+                        <div className="image-wrapper bg-[#FFEFDB]">
                             <img src="/images/project2.png" alt="Library Management Platform" />
                         </div>
-                        <h2>Library Management Platform</h2>
+                        <h2>The Library Management Platform</h2>
                     </div>
 
                     <div className="project" ref={project3Ref}>
-                        <div className="image-wrapper bg-[#ffe7eb]">
+                        <div className="image-wrapper bg-gray-500">
                             <img src="/images/project3.png" alt="YC Directory" />
                         </div>
-                        <h2>YC Directory - A Startup Showcase App</h2>
+                        <h2>Learn Platform UI – Codecademy Inspired Design</h2>
                     </div>
                 </div>
                 </div>
